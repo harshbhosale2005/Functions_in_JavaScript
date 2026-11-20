@@ -75,11 +75,22 @@ function add3(){
     return num+num2;
 }
 
+function add4(num,num2){
+
+    return num+num2;
+}
+
 add1();
 
 add2(20,80);
 
 let num3=add3();
 console.log("Addition of 2 digits are :"+num3);
+
+let num4=add4(50,50);
+console.log("Addition of  2 Numbers  is :"+num4);
+
+
+
 
 
