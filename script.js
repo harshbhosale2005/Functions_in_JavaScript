@@ -132,4 +132,45 @@ let num6=sub4(50,50);
 console.log("Subtraction of  2 Numbers  is :"+num6);
 
 
+// mul() using all types of functions
+
+function  mul1( ){
+    let a=10;
+    let b=20;
+
+    let c=a*b;
+    console.log("Multiplication of a and b is : "+c);
+    
+}
+
+function mul2(num,num2){
+
+    console.log("Multiplication of 2 digits :"+(num*num2));
+    
+}
+
+function mul3(){
+
+    let num=10;
+    let num2=60;
+
+    return num*num2;
+}
+
+function mul4(num,num2){
+
+    return num*num2;
+}
+
+mul1();
+
+mul2(20,80);
+
+let num7=add3();
+console.log("Multiplication of 2 digits are :"+num7);
+
+let num8=add4(50,50);
+console.log("Multiplication of  2 Numbers  is :"+num8);
+
+
 
