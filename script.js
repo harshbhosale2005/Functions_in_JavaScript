@@ -50,7 +50,7 @@ console.log("Cube is : "+res2);
 
 // task 1
 
-// add function using simple function
+// add function using all function
 
 function  add1( ){
     let a=10;
@@ -91,6 +91,45 @@ let num4=add4(50,50);
 console.log("Addition of  2 Numbers  is :"+num4);
 
 
+// sub() using all functions
+
+function  sub1( ){
+    let a=10;
+    let b=20;
+
+    let c=a-b;
+    console.log("Subtraction of a and b is : "+c);
+    
+}
+
+function sub2(num,num2){
+
+    console.log("Subtraction of 2 digits :"+(num-num2));
+    
+}
+
+function sub3(){
+
+    let num=10;
+    let num2=60;
+
+    return num-num2;
+}
+
+function sub4(num,num2){
+
+    return num-num2;
+}
+
+sub1();
+
+sub2(20,80);
+
+let num5=sub3();
+console.log("Subtraction of 2 digits are :"+num5);
+
+let num6=sub4(50,50);
+console.log("Subtraction of  2 Numbers  is :"+num6);
 
 
 
