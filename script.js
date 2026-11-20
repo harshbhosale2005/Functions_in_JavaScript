@@ -173,4 +173,43 @@ let num8=add4(50,50);
 console.log("Multiplication of  2 Numbers  is :"+num8);
 
 
+// mul() using all types of functions
+
+function  div1( ){
+    let a=10;
+    let b=20;
+
+    let c=a/b;
+    console.log("Division of a and b is : "+c);
+    
+}
+
+function div2(num,num2){
+
+    console.log("Division of 2 digits :"+(num+num2));
+    
+}
+
+function div3(){
+
+    let num=10;
+    let num2=60;
+
+    return num/num2;
+}
+
+function div4(num,num2){
+
+    return num+num2;
+}
+
+div1();
+
+div2(20,80);
+
+let num9=add3();
+console.log("Division of 2 digits are :"+num9);
+
+let num10=add4(50,50);
+console.log("Division of  2 Numbers  is :"+num10);
 
