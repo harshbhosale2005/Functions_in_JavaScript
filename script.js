@@ -5,9 +5,9 @@ function m1(){
     //  functions provided by javascript.
 
     //alert("js function");
-    confirm("m1() function");
-    let name=prompt("Enter name :");
-    console.log("Name :"+name);
+   // confirm("m1() function");
+   // let name=prompt("Enter name :");
+   // console.log("Name :"+name);
     console.log("js function");
     
     
@@ -47,5 +47,39 @@ function cube(num){
 let res2 = cube(5);
 console.log("Cube is : "+res2);
 
+
+// task 1
+
+// add function using simple function
+
+function  add1( ){
+    let a=10;
+    let b=20;
+
+    let c=a+b;
+    console.log("Addition of a and b is : "+c);
+    
+}
+
+function add2(num,num2){
+
+    console.log("Addition of 2 digits :"+(num+num2));
+    
+}
+
+function add3(){
+
+    let num=10;
+    let num2=60;
+
+    return num+num2;
+}
+
+add1();
+
+add2(20,80);
+
+let num3=add3();
+console.log("Addition of 2 digits are :"+num3);
 
 
